@@ -3,8 +3,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
-    "preinstall": "if (npm_execpath && !npm_execpath.includes('pnpm')) { echo 'Please use pnpm instead of npm or yarn'; exit 1; }"
+    "start": "next start"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
